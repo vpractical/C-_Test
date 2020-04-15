@@ -56,7 +56,7 @@ int main() {
 
     //字符串操作
     char buffer[20];
-    char *p = "npc";
+    const char *p = "npc";
     strcpy(buffer,p);
     strcpy(buffer,"npcc");
     cout << "buffer:" << buffer << endl;
@@ -68,18 +68,32 @@ int main() {
 
     std::cout << "Lsn4-------------------" << std::endl;
 
-    string s1 = "天行";
-    char *s2 = "九歌";
-    char s3[] = "电影";
-
-    cout << s1 << "---" <<  s1.size() << "---" << s1.length() << "---" << &s1 << endl;
-    cout << s2 << "---" <<  sizeof(s2) << "---" << strlen(s2) << "---" << &s2 << endl;
-    cout << s3 << "---" <<  sizeof(s3) << "---" << strlen(s3) << "---" << &s3 << endl;
+//    string s1 = "天行";
+//    char *s2 = "九歌";
+//    char s3[] = "电影";
+//
+//    cout << s1 << "---" <<  s1.size() << "---" << s1.length() << "---" << &s1 << endl;
+//    cout << s2 << "---" <<  sizeof(s2) << "---" << strlen(s2) << "---" << &s2 << endl;
+//    cout << s3 << "---" <<  sizeof(s3) << "---" << strlen(s3) << "---" << &s3 << endl;
 
 
 
 
     //转as的JniApp项目
+
+    cout << "Lsn6--------------------" << endl;
+    //线程
+
+
+     
+
+
+
+
+
+
+
+
 
 
 
